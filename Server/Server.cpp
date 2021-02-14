@@ -27,7 +27,7 @@ int main(int argc, char* argv[]) {
 	WSAData wsaData;
 	WORD DLLVersion = MAKEWORD(2, 1);
 	if (WSAStartup(DLLVersion, &wsaData) != 0) {
-		std::cout << "Error" << std::endl;
+		std::cout << "Error with ..." << std::endl;
 		exit(1);
 	}
 
